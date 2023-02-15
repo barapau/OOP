@@ -7,8 +7,15 @@ class BankAccount:
 # the account's balance. It is assigned to
 # the __balance attribute.
 
-    def __init__(self, bal):
-        self.__balance = bal
+    def __init__(self):
+        self.__StudentID = 0
+        self.__Name = ''
+        self.__dob = 0
+        self.__classification = ('f', 's', 'jr', 'sr')
+        self.__age = 0
+        self.registration = 0
+
+
 
       # The deposit method makes a deposit into the
       # account.
