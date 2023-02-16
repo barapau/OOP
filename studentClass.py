@@ -3,7 +3,7 @@ from datetime import date
 
 class Student:
 
-    def __init__(self,id,name,bod,classification):
+    def __init__(self,id,name,dob,classification):
         self.studentid = id
         self.__name = name
         self.__dob = dob
