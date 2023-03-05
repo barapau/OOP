@@ -14,15 +14,6 @@ class Customer:
     def get_phone(self):
         return self.__phone 
 
-    def set_name(self):
-        return self.__name
-    
-    def set_address(self):
-        return self.__address
-    
-    def set_phone(self):
-        return self.__phone
-
 
 #car class
 class Car:
@@ -40,26 +31,17 @@ class Car:
     def get_year(self):
         return self.__year
 
-    def set_make(self):
-        return self.__make
-    
-    def set_model(self):
-        return self.__model
-    
-    def set_year(self):
-        return self.__year
-
 #service quote class
 class ServiceQuote:
     def __init__(self,part_charges, labor_charges):
         self.__part_charges = part_charges
         self.__labor_charges= labor_charges
     
-    def set_parts_charges(self):
-        return self.__year
+    def get_parts_charges(self):
+        return self.__part_charges
 
-    def set_make(self):
-        return self.__make
+    def get_labor_charges(self):
+        return self.__labor_charges
     
     def set_model(self):
         return self.__model
