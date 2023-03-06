@@ -1,3 +1,4 @@
+TAX = .0825
 
 #customer class
 class Customer:
@@ -46,11 +47,11 @@ class ServiceQuote:
     
     def get_tax(self):
         sub_total = self.parts + self.labor
-        tax = sub_total * .0825
+        tax = sub_total * TAX
         return tax
     
     def get_total(self):
         sub_total = self.parts + self.labor
-        tax = sub_total * .0825
+        tax = sub_total * TAX
         total = self.parts + self.labor + tax
         return total
