@@ -34,11 +34,10 @@ class Car:
 
 #service quote class
 class ServiceQuote:
-    def __init__(self, parts, labor):
+    def __init__(self,parts,labor):
         self.parts = parts
         self.labor = labor 
    
-
     def get_parts(self):
         return self.parts
     
