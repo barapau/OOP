@@ -6,11 +6,13 @@ phone = '214-555-1112'
 make = 'Honda'
 model = 'Accord LX'
 year = 2016
+parts = 1210.50
+labor = 765.00
 
 
 customer = jc.Customer(name, address, phone)
 car = jc.Car(make, model, year)
-service_quote = jc.ServiceQuote(1210.50, 765.00)
+service_quote = jc.ServiceQuote(parts, labor)
 
 print('Customer:', customer.get_name(), '  ', 'Address:', customer.get_address(), '  ', 'Phone:', customer.get_phone())
 print()
